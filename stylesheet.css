@@ -1,0 +1,214 @@
+
+
+/*Bagain mengatur latar belakang*/
+body
+{
+    background-color: gainsboro;
+}
+
+
+
+/*Bagain badan utama biar bisa rapi*/
+
+.badan-utama
+{
+    max-width: 1090px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+
+
+
+
+
+
+/*Bagain gambar header*/
+
+header
+{
+    background-image: url(kelompok\ A16.jpg);
+    color: white;
+    padding: 130px;
+    background-size: cover;
+  
+    
+
+    
+/*di sembunyikan*/    
+}
+
+p {
+    display: no;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+/*Bagain Tombol atau Navigasi*/
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: ;
+}
+ 
+.navigasi li 
+{
+    float: left;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    
+}
+ 
+.navigasi li a:hover 
+{
+    background-color:#1cb8ff;
+    transition-duration: 0.3s;
+}
+ 
+ 
+
+
+
+
+
+/*Bagian kotak */ 
+
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 19px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+    
+}
+ 
+
+.kotak h3
+{
+    background-color: #1cb8ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+}
+ 
+
+
+
+
+
+
+
+ 
+/*Bagain Konten atau isi (main)*/ 
+.menu-tengah
+{
+    width: 770px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: rgb(32, 32, 32);
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 35px;
+    margin-top: -0px;
+}
+
+
+
+
+
+
+
+/*Bagain Tanggal Postingan*/
+
+.tanggal-posting
+{
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: block;
+    padding-left: 13px;
+    
+}
+
+
+
+
+
+
+/*Menu Sidebar*/
+ 
+.menu-kanan
+{
+    width: 299px;
+    float: right;
+    
+}
+
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+ 
+.menu-artikel ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-artikel ul li a:hover
+{
+    color: #1cb8ff;
+    border-bottom: 5px double ;
+    transition-duration: 0.1s;
+}
+ 
+
+
+
+/*footer bagian Bawah*/
+
+footer
+{
+    clear: both;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
